@@ -1,3 +1,8 @@
+# Introduction
+
+This project is a React learning tutorial off the official [React website](https://reactjs.org/). It is created following a general guide to working with React. It is the beginning of my React learning, and has been created with Create React App, details below.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
