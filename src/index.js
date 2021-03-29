@@ -1,7 +1,12 @@
+// N.B my commenting on this project may be rather small and generic as I try to make sense of this language 
+//itslef
+
+// First step is to always Import dependencies, working with "Create React App".
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+// Create the square component. Each square component is a child of the board
 function Square(props) {
   return (
     <button className="square" onClick={props.onClick}>
@@ -10,6 +15,7 @@ function Square(props) {
   );
 }
 
+// The Board component is a parent of the square component
 class Board extends React.Component {
   renderSquare(i) {
     return (
@@ -42,7 +48,7 @@ class Board extends React.Component {
     );
   }
 }
-
+//Overall parent component which controls other sub components within it
 class Game extends React.Component {
   constructor(props) {
     super(props);
